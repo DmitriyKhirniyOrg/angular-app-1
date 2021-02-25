@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-app-1
+  description: Angular-app-check
+  annotations:
+    github.com/project-slug: DmitriyKhirniyOrg/angular-app-1
+    backstage.io/techdocs-ref: url:http://github.com/DmitriyKhirniyOrg/angular-app-1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniyOrg"
